@@ -1,0 +1,134 @@
+
+
+@media only screen and (max-width: 768px) {
+    .centrar{
+	text-align: center;
+    }
+    body {
+        background-color: rgba(245, 222, 179, 0.733);
+    }
+    header {
+        background-color: thistle;
+        width: 100%;
+    }
+    #navBar {
+        display: block;
+        margin: auto;
+    }
+    .margin {
+        margin: 30px;
+    }
+    .amigos img {
+        display: block;
+        margin: auto;
+        padding: 10px;
+    }
+    .amigos h2 {
+        text-align: center;
+    }
+    .etTuBrute {
+        font-family: cursive;
+        font-size: 20px;
+        text-align: right;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    .box {
+        background-color:thistle;
+        width: 100%;
+        padding: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        color: black;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .gatitos {
+        display: block;
+        margin: auto;
+    }
+    .gridFooter {
+        display: grid;
+        grid-template-areas: "logo rrss contacto";
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: auto;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
+    .footerLogo {grid-area: logo; display: block; margin: auto;}
+    .rrss {grid-area: rrss; display: block; margin: auto;}
+    .contacto {grid-area: contacto; display: block; margin: auto;}
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    body {
+        background-color: rgba(255, 80, 80, 0.356);
+    }
+    header {
+        background-color: rgb(253, 249, 253);
+        width: 100%;
+    }
+    #navBar {
+        margin: auto;
+    }
+    .desktopCarousel {
+        width: 600px;
+        height: fit-content;
+        display: block;
+        margin: auto;
+        background-color:rgb(253, 249, 253);
+        padding: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        color: black;
+        
+    }
+    .box {
+        background-color:rgb(253, 249, 253);
+        width: 100%;
+        padding: 30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 4px;
+        color: black;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .gridFooter {
+        display: grid;
+        grid-template-areas: "logo rrss contacto";
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        grid-template-rows: auto;
+        grid-row-gap: 5px;
+        grid-column-gap: 5px;
+    }
+    .footerLogo {grid-area: logo; display: block; margin: auto;}
+    .rrss {grid-area: rrss; display: block; margin: auto;}
+    .contacto {grid-area: contacto; display: block; margin: auto;}
+    
+    .bienvenido h1 {
+        text-align: center;
+        margin:20px;
+    }
+    .cesarBox {
+        width: 1000px;
+        margin-left: 500px;
+    }
+    .etTuBrute {
+        font-family: cursive;
+        font-size: 20px;
+        text-align: right;
+        margin-right: 100px;
+        margin-top: 30px;
+    }
+    .amigos h2 {margin:20px;}
+    .amigos img {
+        display: block;
+        margin: auto;
+        padding: 0px;
+    }
+    .amigos h2 {
+        text-align: center;
+    }
+}
